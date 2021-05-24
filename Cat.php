@@ -24,3 +24,4 @@ class Cat extends Model
         return Carbon::createFromFormat('Y-m-d', this->attributes['date_of_birth'])->format('d/m/Y');
     }
 }
+//finish
